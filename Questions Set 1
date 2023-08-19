@@ -1,0 +1,31 @@
+1. Print first five line of file "VTCBB.txt".
+
+2. Print line 8 to 16 from file "VTCBB.TXT"
+
+3. Print all directiory and file of current directory with hidden files and folder.
+
+4. Print second charcter of each line of "VTCBB.txt"
+
+5. Display the character from  8 Bytes.
+
+6. Skip first 5 character of each line and print it.
+
+7. Print only unique record of file "student.txt"
+
+8. You have "stud.csv" file which contain sid,sname,city,dept. print only student name.
+
+9. You have "stud.csv" file which contain sid,sname,city,dept. print only student name and dept.
+
+10. You have "stud.csv" file which contain sid,sname,city,dept,fee. print records in ascending order of student name.
+
+11. Display count of each line in "Stud.csv". Means how many time records repeat in file.
+
+12. Convert "into.txt" file into uppercase.
+
+13. Print  "VTCBB" as "VTBB".
+
+14. Print "VTCBB" as "VTCD".
+
+15. Display only duplicate line from file "stud.csv"
+
+
