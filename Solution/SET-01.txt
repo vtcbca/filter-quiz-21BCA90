@@ -1,0 +1,44 @@
+1. Print first five line of file "VTCBB.txt".
+=>$ head -n 5 VTCBB.txt
+
+2. Print line 8 to 16 from file "VTCBB.TXT"
+=>$ sed -n '8,16p' VTCBB.txt
+
+3. Print all directiory and file of current directory with hidden files and folder.
+=>$ ls -a
+
+4. Print second charcter of each line of "VTCBB.txt"
+=>$ cut -c 2 VTCBB.txt
+
+5. Display the character from  8 Bytes.
+=>$ cut -c 8- VTCBB.txt
+
+6. Skip first 5 character of each line and print it.
+=>$ cut -c 6- VTCBB.txt
+
+7. Print only unique record of file "student.txt"
+=>$ sort -u student.txt
+
+8. You have "stud.csv" file which contain sid,sname,city,dept. print only student name.
+=>$ cut -d ',' -f 2 stud.csv
+
+9. You have "stud.csv" file which contain sid,sname,city,dept. print only student name and dept.
+=>$ cut -d ',' -f 2,4 stud.csv
+
+10. You have "stud.csv" file which contain sid,sname,city,dept,fee. print records in ascending order of student name.
+=>$ sort -t ',' -k 2 stud.csv
+
+11. Display count of each line in "Stud.csv". Means how many time records repeat in file.
+=>$ sort stud.csv | uniq -c
+
+12. Convert "into.txt" file into uppercase.
+=>$ tr '[:lower:]' '[:upper:]' < into.txt
+
+13. Print  "VTCBB" as "VTBB".
+=>$ echo "VTCBB" | sed 's/C//'
+
+14. Print "VTCBB" as "VTCD".
+=>$ echo "VTCBB" | sed 's/BB/D/'
+
+15. Display only duplicate line from file "stud.csv"
+=>$ sort stud.csv | uniq -d
